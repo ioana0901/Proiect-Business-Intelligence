@@ -1,4 +1,6 @@
 # Proiect-Business-Intelligence
+- Anul III - 
+
 ## Analiza datelor cu privire la comerțul cu amănuntul din Bacău
 
 ### 1. Descrierea scenariului de business<br>
