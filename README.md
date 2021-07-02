@@ -74,13 +74,13 @@ Pentru început, am realizat o hartă pentru a putea vizualiza amplasarea județ
 Pentru a vedea distribuția firmelor în orașele din județ, am realizat o nouă hartă ca cea de mai sus, însă în loc de județ, am utilizat Localitate.<br>
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 
-![image](https://user-images.githubusercontent.com/63421754/124284403-a3199d00-db55-11eb-9db3-3d196343f911.png)
-
+![image](https://user-images.githubusercontent.com/63421754/124284562-c8a6a680-db55-11eb-93c0-36c5deae28fc.png)
 <br>
 <li>Astfel, se observă faptul că cele mai multe astfel de firme se află în Municipiul Bacău, în număr de 219.</li>
 <br>Mai departe, pentru a vedea profitul net la nivel de județ pe parcursul celor 4 ani, am realizat un grafic cu bare utilizând atributele Profit net în rows și Year în columns.
 <br> 
-![image](https://user-images.githubusercontent.com/63421754/124283239-5aadaf80-db54-11eb-8f61-cdbe5b269fae.png)
+![image](https://user-images.githubusercontent.com/63421754/124284670-d9571c80-db55-11eb-877a-34841ff8504f.png)
+
 <br>
 <li>Din grafic se observă faptul că în 2019 s-a înregistrat cel mai mare profit. De asemenea, se mai observă faptul că din 2016 până în 2019 profitul net a tot crescut.</li>
 <br>Pentru a putea compara profitul și pierderea, am creat un nou grafic de tip side-by-side pentru a putea compara profitul si pierderea netă înregistrate. Pentru acest grafic am utilizat year, pierdere netă și profit net. De asemenea, am realizat o filtrare după nume, prin care am exclus firma Dedeman, întrucât aceasta influența foarte mult rezultatele. Nu în ultimul rând, am evidențiat valorile rezultatelor prin <i>mark label->always show.</i><br>
