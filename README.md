@@ -1,5 +1,5 @@
 # Proiect-Business-Intelligence
-- Anul III - 
+-Anul III- 
 
 ## Analiza datelor cu privire la comerțul cu amănuntul din Bacău
 
