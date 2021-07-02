@@ -1,11 +1,7 @@
 # Proiect-Business-Intelligence
 ## Analiza datelor cu privire la comerțul cu amănuntul din Bacău
 ### Cuprins
-[1. Descrierea scenariului de business](#heading)<br>
-[2. Pregătirea datelor](#heading)<br>
-[3. Analiza și vizualizarea datelor](#heading)<br>
-[4. Crearea Dashboard-ului](#heading)<br>
-[5. Crearea unei povești](#heading)<br><br>
+
 
 ### 1. Descrierea scenariului de business<br>
 
