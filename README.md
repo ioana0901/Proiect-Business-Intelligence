@@ -72,7 +72,10 @@ Pentru început, am realizat o hartă pentru a putea vizualiza amplasarea județ
 
 <li>Astfel, din harta de mai sus se observă faptul că, în județul Bacău se află 567 de firme care au ca domeniu de activitate comerțul cu amănuntul.</li>
 Pentru a vedea distribuția firmelor în orașele din județ, am realizat o nouă hartă ca cea de mai sus, însă în loc de județ, am utilizat Localitate.<br>
-![image](https://user-images.githubusercontent.com/63421754/124282097-1cfc5700-db53-11eb-8925-aa8e721f2050.png)
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+
+![image](https://user-images.githubusercontent.com/63421754/124284403-a3199d00-db55-11eb-9db3-3d196343f911.png)
+
 <br>
 <li>Astfel, se observă faptul că cele mai multe astfel de firme se află în Municipiul Bacău, în număr de 219.</li>
 <br>Mai departe, pentru a vedea profitul net la nivel de județ pe parcursul celor 4 ani, am realizat un grafic cu bare utilizând atributele Profit net în rows și Year în columns.
