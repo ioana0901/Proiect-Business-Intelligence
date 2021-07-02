@@ -20,7 +20,7 @@ Domeniul de activitate este studiat are codul CAEN 47 și se referă la comerțu
 
 ### 2. Pregătirea datelor
 
-a. Încărcarea datelor în Tableau Prep 
+a. Încărcarea datelor în Tableau Prep <br>
 ![image](https://user-images.githubusercontent.com/63421754/124277848-3222b700-db4e-11eb-8dae-f0ef43ce5231.png)
 <br>
 b.Pregătirea datelor din fișierele ce conțin listele cu firmele care sunt neradiate și au sediu. Mai jos am arătat pașii pe care i-am urmat pentru datele din setul „2019-neradiate-cu-sediu_4” (am urmat aceiași pași și pentru celelalte 3 seturi):<br>
