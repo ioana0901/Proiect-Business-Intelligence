@@ -72,38 +72,49 @@ Pentru început, am realizat o hartă pentru a putea vizualiza amplasarea județ
 
 <li>Astfel, din harta de mai sus se observă faptul că, în județul Bacău se află 567 de firme care au ca domeniu de activitate comerțul cu amănuntul.</li>
 Pentru a vedea distribuția firmelor în orașele din județ, am realizat o nouă hartă ca cea de mai sus, însă în loc de județ, am utilizat Localitate.<br>
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 
-![image](https://user-images.githubusercontent.com/63421754/124284562-c8a6a680-db55-11eb-93c0-36c5deae28fc.png)
-<br>
+![image](https://user-images.githubusercontent.com/63421754/124284562-c8a6a680-db55-11eb-93c0-36c5deae28fc.png)<br>
 <li>Astfel, se observă faptul că cele mai multe astfel de firme se află în Municipiul Bacău, în număr de 219.</li>
-<br>Mai departe, pentru a vedea profitul net la nivel de județ pe parcursul celor 4 ani, am realizat un grafic cu bare utilizând atributele Profit net în rows și Year în columns.
-<br> 
+<br>Mai departe, pentru a vedea profitul net la nivel de județ pe parcursul celor 4 ani, am realizat un grafic cu bare utilizând atributele Profit net în rows și Year în columns.<br>
+
 ![image](https://user-images.githubusercontent.com/63421754/124284670-d9571c80-db55-11eb-877a-34841ff8504f.png)
 
-<br>
-<li>Din grafic se observă faptul că în 2019 s-a înregistrat cel mai mare profit. De asemenea, se mai observă faptul că din 2016 până în 2019 profitul net a tot crescut.</li>
-<br>Pentru a putea compara profitul și pierderea, am creat un nou grafic de tip side-by-side pentru a putea compara profitul si pierderea netă înregistrate. Pentru acest grafic am utilizat year, pierdere netă și profit net. De asemenea, am realizat o filtrare după nume, prin care am exclus firma Dedeman, întrucât aceasta influența foarte mult rezultatele. Nu în ultimul rând, am evidențiat valorile rezultatelor prin <i>mark label->always show.</i><br>
+<br><li>Din grafic se observă faptul că în 2019 s-a înregistrat cel mai mare profit. De asemenea, se mai observă faptul că din 2016 până în 2019 profitul net a tot crescut.</li><br>
+
+Pentru a putea compara profitul și pierderea, am creat un nou grafic de tip side-by-side pentru a putea compara profitul si pierderea netă înregistrate. Pentru acest grafic am utilizat year, pierdere netă și profit net. De asemenea, am realizat o filtrare după nume, prin care am exclus firma Dedeman, întrucât aceasta influența foarte mult rezultatele. Nu în ultimul rând, am evidențiat valorile rezultatelor prin <i>mark label-always show.</i><br>
+
 ![image](https://user-images.githubusercontent.com/63421754/124279879-ac543b00-db50-11eb-8675-71d7c5563ab8.png)<br>
+
 ![image](https://user-images.githubusercontent.com/63421754/124282385-706ea500-db53-11eb-89c9-509eb96e2ff9.png)<br>
-<li>Din graficul de mai sus se observă faptul că de-a lungul celor 4 ani, s-au profitul s-a menținut mult mai sus de cât perderea, în special în anul 2019 unde diferența este cu mult mai mare.</li>
-<br>Un rol important în reflectarea performanţelor întreprinderilor o are <b>rata profitului</b>, care se calculează ca raport procentual între suma profitului aferent cifrei de afaceri și venituri. Astfel, am adăugat un câmp calculat folosind formula de mai jos:<br>
-![image](https://user-images.githubusercontent.com/63421754/124280258-24bafc00-db51-11eb-87b1-2d59f1fe078f.png)<br>
--Pentru a crea graficul am utilizat Year și Rata Profitului, a cărei măsură am transformat-o în average. În plus, am modifcat axa pentru a restrânge intervalul arătat pe aceasta:<br>
-![image](https://user-images.githubusercontent.com/63421754/124280507-706da580-db51-11eb-9042-c71521d1f667.png)<br>
-![image](https://user-images.githubusercontent.com/63421754/124280391-4c11c900-db51-11eb-83db-4bea5e8a2f4e.png)<br>
-<li>Din graficul de mai sus, reiese faptul că în anii 2016 și 2018 rata medie a profitului a avut cele mai mari valori, pe când în 2019, aceasta a scăzut.</li>
-<br>Mai departe, doresc să aflu în ce măsură sunt influențate activele totale de datorii în cadrul firmelor din acest domeniu.<br>
+
+<li>Din graficul de mai sus se observă faptul că de-a lungul celor 4 ani, s-au profitul s-a menținut mult mai sus de cât perderea, în special în anul 2019 unde diferența este cu mult mai mare.</li><br>
+Un rol important în reflectarea performanţelor întreprinderilor o are <b>rata profitului</b>, care se calculează ca raport procentual între suma profitului aferent cifrei de afaceri și venituri. Astfel, am adăugat un câmp calculat folosind formula de mai jos:<br>
+
+![image](https://user-images.githubusercontent.com/63421754/124280258-24bafc00-db51-11eb-87b1-2d59f1fe078f.png)
+<br>-Pentru a crea graficul am utilizat Year și Rata Profitului, a cărei măsură am transformat-o în average. În plus, am modifcat axa pentru a restrânge intervalul arătat pe aceasta:<br>
+
+![image](https://user-images.githubusercontent.com/63421754/124280507-706da580-db51-11eb-9042-c71521d1f667.png)
+<br>
+![image](https://user-images.githubusercontent.com/63421754/124280391-4c11c900-db51-11eb-83db-4bea5e8a2f4e.png)
+<br>
+<li>Din graficul de mai sus, reiese faptul că în anii 2016 și 2018 rata medie a profitului a avut cele mai mari valori, pe când în 2019, aceasta a scăzut.</li><br>
+Mai departe, doresc să aflu în ce măsură sunt influențate activele totale de datorii în cadrul firmelor din acest domeniu.<br>
 -Mai întâi am creat un nou câmp pentru a calcula <b>activele totale</b>
+
 ![image](https://user-images.githubusercontent.com/63421754/124280670-a27f0780-db51-11eb-874b-53c09969d0fb.png)<br>
+
 -Apoi, m-am folosit de Datorii și ActiveTotale pentru a crea un grafic de tip scatterplot, după care am adăugat o linie de trend:<br>
-![image](https://user-images.githubusercontent.com/63421754/124280753-bd517c00-db51-11eb-9dfb-6593db397ee3.png)<br>
-<li>Din imaginea de mai sus se observă că există o corelație puternică (0.84) între cele două variabile arătând faptul că activele totale sunt într-adevăr influențate de datorii.</li>
-<br>Mai departe, am mai creat un nou câmp calculat pentru a putea afla <b>viteza de rotație a activelor circulante</b>:<br>
-![image](https://user-images.githubusercontent.com/63421754/124280955-ebcf5700-db51-11eb-88ad-9da1d09fd2d0.png)<br>
+
+![image](https://user-images.githubusercontent.com/63421754/124280753-bd517c00-db51-11eb-9dfb-6593db397ee3.png)
+<br><li>Din imaginea de mai sus se observă că există o corelație puternică (0.84) între cele două variabile arătând faptul că activele totale sunt într-adevăr influențate de datorii.</li><br>
+Mai departe, am mai creat un nou câmp calculat pentru a putea afla <b>viteza de rotație a activelor circulante</b>:<br>
+
+![image](https://user-images.githubusercontent.com/63421754/124280955-ebcf5700-db51-11eb-88ad-9da1d09fd2d0.png)
+<br>
 -Am creat apoi un nou grafic asemănător cu cel care prezintă activelel totale:<br>
-![image](https://user-images.githubusercontent.com/63421754/124281073-086b8f00-db52-11eb-9e2d-655bb8f99d00.png)<br>
-<li>De aici se observă faptul că acest coeficient a scăzut de-a lungul anilor, fapt ce sugerează că gradul de imobilizare a activelor a în creștere.</li>
+
+![image](https://user-images.githubusercontent.com/63421754/124281073-086b8f00-db52-11eb-9e2d-655bb8f99d00.png)
+<br><li>De aici se observă faptul că acest coeficient a scăzut de-a lungul anilor, fapt ce sugerează că gradul de imobilizare a activelor a în creștere.</li>
 ### 4. Crearea Dashboard-ului
 <br> Mai jos sunt prezentate dashboard-urile create în cadrul proiectului. acestea au fost folosite și în crearea poveștii de la punctul 5.<br>
 ![image](https://user-images.githubusercontent.com/63421754/124281591-87f95e00-db52-11eb-8762-6d6edc4bebd1.png)
@@ -118,6 +129,9 @@ aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 <br>
 ![image](https://user-images.githubusercontent.com/63421754/124281813-cc84f980-db52-11eb-9bb8-29dc988d1e7e.png)
 <br>
+### 5. Crearea unei povești
+
+![image](https://user-images.githubusercontent.com/63421754/124285753-e9bbc700-db56-11eb-81ff-abf7d3e809eb.png)
 
 
 
